@@ -23,7 +23,7 @@ end
 % D = zeros(num_generation,1);
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 maxval = 0;
-%% DE main code
+%%  main code
 for g = 1 : num_generation
 
     obj_seq = ones(num_population,1)*LARGE_VALUE;
